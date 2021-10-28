@@ -19,6 +19,6 @@ jobs:
       - name: Installing scribble-lp2-manual and its dependencies
         run: raco pkg install --no-docs --auto --name scribble-lp2-manual
       - name: Compiling scribble-lp2-manual and building its docs
-        run: raco setup --check-pkg-deps --unused-pkg-deps scribble-lp2-manual
+        run: raco setup --check-pkg-deps --unused-pkg-deps -l scribble/lp2/manual
       - name: Testing scribble-lp2-manual
         run: raco test -x -p scribble-lp2-manual
