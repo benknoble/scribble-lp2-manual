@@ -5,3 +5,4 @@
 (define pkg-desc "Literate programming with style")
 (define version "1.0")
 (define pkg-authors '(benknoble))
+(define license 'MIT)
